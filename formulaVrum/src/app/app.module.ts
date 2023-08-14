@@ -4,14 +4,17 @@ import {AccordionModule} from 'primeng/accordion';
 import {MenuItem} from 'primeng/api'; 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TelaInicialModule } from './tela-inicial/tela-inicial.module'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TelaInicialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
