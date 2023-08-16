@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tela-inicial.component.scss']
 })
 export class TelaInicialComponent implements OnInit {
+  
 
+  selectedValues: string[] = ['val1','val2'];
   constructor() { }
 
   ngOnInit(): void {
